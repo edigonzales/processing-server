@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProcessingServerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProcessingServerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ProcessingServerApplication.class, args);
+    }
 
 }
