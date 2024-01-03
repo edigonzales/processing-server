@@ -23,7 +23,7 @@ import org.slf4j.LoggerFactory;
 public class LandingPageApi {
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
-    final String BASE_URL = "/rest";
+    final static String BASE_URL = "/rest";
 
     @Value("${service.title}")
     private String title;
