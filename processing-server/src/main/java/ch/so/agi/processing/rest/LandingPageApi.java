@@ -66,7 +66,7 @@ public class LandingPageApi {
         link.setTitle("The processes offered by this server");
         links.add(link);
 
-        // HTML...
+        // Vorbereitung für HTML-Output, sonst bräuchte es ResponseEntity nicht.
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.setContentType(MediaType.APPLICATION_JSON);
         LandingPage landingPage = new LandingPage().title(title).description(description).links(links);
